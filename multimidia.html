@@ -4,6 +4,7 @@
 	<title>Tudo sobre Google Glass</title>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="css/estilo.css" />
+	<link rel="stylesheet" href="css/media.css" />
 </head>
 	<script src="javascript/funcoes.js"></script>
 <body>
@@ -13,7 +14,7 @@
 				<h1>Google Glass</h1>
 				<h2>A revolução do Google está chegando</h2>
 			</hgroup>
-			<img id="icone" src="imagens/glass-oculos-preto-peq.png" />
+			<img id="icone" src="imagens/multimidia.png" />
 
 			<nav id="menu">
 				<h1>Menu Principal</h1>
@@ -26,28 +27,31 @@
 				</ul>
 			</nav>
 		</header>
-		Google Glass
-		A revolução do Google está chegando
-
-		[AQUI ENTRA UMA FOTO]
-
-		Menu Principal
-		- Home
-		- Especificações
-		- Fotos
-		- Multimídia
-		- Fale conosco
-
-		Glass > Multimídia
-		Sons e Vídeos
-		por Gustavo Guanabara
-		Atualizado em 01/Maio/2013
-
-
-		Áudio e Vídeo
-
-		[AQUI ENTRA UM VÍDEO]
-		[AQUI ENTRA UM ÁUDIO]
+		<section id="corpo-full">
+			<article id="noticia-principal">
+			<header id="cabecalho_artigo">
+				<hgroup>
+					<h3>Glass > Multimídia</h3>
+					<h1>Sons e Vídeos</h1>
+					<h2>por Gustavo Guanabara</h2>
+					<h3 class="direita">Atualizado em 13/Maio/2020</h3>
+				</hgroup>
+			</header>
+			<div id="tv-radio">
+				<audio id="musica" controls="controls">
+					<source src="media/mario.mp3" type="audio/mpeg" />
+					<source src="media/mario.m4a" type="audio/x-aac" />
+					<source src="media/mario.ogg" type="audio/ogg" />
+					Mídia não compatível.
+				</audio>
+				<video id="filme" controls="controls" poster="imagens/video-mini03.jpg">
+					<source src="media/beet.mp4" type="video/mp4" />
+					<source src="media/beet.webm" type="video/webm" />
+					<source src="media/beet.ogv" type="video/ogg" />
+				</video>
+			</div>
+			</article>
+		</section>
 		<footer id="rodape">
 			<p>Copyright &copy; 2013 - by Gustavo Guanabara</p>
 			<p>
